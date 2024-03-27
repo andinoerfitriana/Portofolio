@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color:  #f8ffec;
+      }
+      .jumbotron {
+        background-color: #f8ffec;
+        color: #fff;
+        padding: 100px 0;
+        margin-bottom: 0;
+      }
+      .navbar {
+        background-color: #647958;
+      }
+      .card {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <center>
+        <h1><b style="color: rgb(0, 0, 0)">HI, I'M A. NURFITRIANA</b></h1>
+      </center>
+      <center>
+        <h5>
+          <b style="color: rgb(0, 0, 0)"
+            >I'm showcasing my work and skills here.</b
+          >
+        </h5>
+      </center>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row">
+          <p>
+              Hello, I am Nanas! D4 student of the Software Engineering Technology
+            Study Program at IPB University Vocational School who easily learns
+            new things, is communicative, and is enthusiastic about learning and
+            growing in the field of UI/UX design. I have experience in various UI/UX projects, including websites and mobile applications. I am proficient in using various design tools and software such as Figma and other design tools. Have strong application design skills and be able to create designs according to user needs. I am always looking for new ways to improve my skills
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="Education" class="container">
+      <h2 class="text-center mb-4">Education</h2>
+      <div class="row">
+          <p>
+            IPB UNIVERSITY
+          </p>
+          <p>
+            D4 SOFTWARE ENGGINERING TECHNOLOGY 
+          </p>
+          <p>
+            2021-PRESENT
+          </p>
+          <p>
+            GPA : 3.45/4.00
+          </p>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="portfolio" class="container">
+      <h2 class="text-center mb-4">Project</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Description of Project 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Description of Project 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Description of Project 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Skills" class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+          <p>
+                Communication, Teamwork, Design, Collaboration, Creativity, Open and Full Initiative
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
